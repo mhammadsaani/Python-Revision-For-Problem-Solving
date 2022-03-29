@@ -44,3 +44,22 @@ print("Hey , I am 5th index in singleQuote", singleQuote[5])
 print("ID before " , id(singleQuote))
 singleQuote = "Hey, I am updated Value"
 print("ID after reassinging ", id(singleQuote))
+
+
+# In Python 3.x, all strings are unicode. But, older versions of Python (Python 2.x) support only ASCII characters. To use unicode in Python 2.x, preceding the string with a # u is must. For example:
+
+string = u"This is unicode"
+print(string)
+
+
+# NoneType
+
+val = None
+print(val)
+print(type(val))
+
+# Important things about None
+# None is not a default value for the variable that has not yet been assigned a value.
+# None is not the same as False.
+# None is not an empty string.
+# None is not 0

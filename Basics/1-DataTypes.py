@@ -32,3 +32,15 @@ print(singleQuote, doubleQuote, tripleQuote, char)
 
 print(len(singleQuote))
 print("Hey , I am 5th index in singleQuote", singleQuote[5])
+
+
+# Immutibility
+
+# singleQuote[0] = 'B' # This will give an error
+# print(singleQuote)
+
+# Assigning a completely new value to a string does not mean that you have modified the value
+
+print("ID before " , id(singleQuote))
+singleQuote = "Hey, I am updated Value"
+print("ID after reassinging ", id(singleQuote))

@@ -63,3 +63,25 @@ print(type(val))
 # None is not the same as False.
 # None is not an empty string.
 # None is not 0
+
+
+### String Formatter %s is used
+
+string = 'Formating'
+print("Hey, this is a test %s" %string)
+
+print("Hey this is simple string %s" %"formating")
+
+print("Testing both ways %s and %s" %('way1', string))
+
+# Inserting Integers %i is used
+
+print("%i + %i" %(2, 3))
+
+
+# Inserting float %f is used, %.2f is used to limit to 2 zeros
+
+
+print("%.2f + %.2f" %(2.3, 5.3))
+
+

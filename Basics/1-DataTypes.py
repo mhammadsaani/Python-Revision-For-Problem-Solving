@@ -120,40 +120,74 @@ else:
 # print(calculator(operation, 10, 20))
 
 
-llist = [1, 2, 3, 4, 5]
+# llist = [1, 2, 3, 4, 5]
 
-doubleList = map(lambda n: n * 2, llist)
-print(list(doubleList))
+# doubleList = map(lambda n: n * 2, llist)
+# print(list(doubleList))
 
-greaterThree = list(filter(lambda n: n > 2, llist))
-print(greaterThree)
-
-
-def factorial(n):
-    if (n == 2):
-        return 2
-    return n * factorial(n-1)
-
-print(factorial(5))
-
-x = [1, 2, 3, 4]
-for i in range(len(x)):
-  print(x[i])
+# greaterThree = list(filter(lambda n: n > 2, llist))
+# print(greaterThree)
 
 
-for i in x:
-  print(i)
+# def factorial(n):
+#     if (n == 2):
+#         return 2
+#     return n * factorial(n-1)
+
+# print(factorial(5))
+
+# x = [1, 2, 3, 4]
+# for i in range(len(x)):
+#   print(x[i])
 
 
-def fib(n):
-  if n < 3:
-    return 1
-  fristNum = 0
-  secondNum = 1
-  finalAns = 0
-  for i in range(n - 2):
-    temp = fristNum + secondNum
-    fristNum = secondNum
-    secondNum = temp
-    finalAns = temp
-  return finalAns
+# for i in x:
+#   print(i)
+
+
+# def fib(n):
+#   if n < 3:
+#     return 1
+#   fristNum = 0
+#   secondNum = 1
+#   finalAns = 0
+#   for i in range(n - 2):
+#     temp = fristNum + secondNum
+#     fristNum = secondNum
+#     secondNum = temp
+#     finalAns = temp
+#   return finalAns
+
+
+### lists .extent(), range()
+
+a = [1, 2, 3]
+a.sort()
+
+
+# List Comprehension : List comprehension is a technique that uses a for loop and a condition to create a new list from an existing one.
+
+# Expression For Loop and Condition 
+
+test = [1, 2, 3]
+test2 = [4, 5, 6]
+
+doubleList = [i * 2 for i in test if i == 4]
+print(doubleList)
+test3 = [(n1, n2) for n1 in test for n2 in test2 if (n1+n2)%2 != 0]
+
+print(test3)
+
+
+### Tuple
+
+a = ("Hey", 1)
+print(type(a))
+
+### Dictionary
+
+dictionary = {1: 1, 
+2: 2}
+print(dictionary)
+
+dict()

@@ -3,10 +3,10 @@ def isValidSubsequence(array, sequence):
   c = 0
   for i in range(len(array)):
     x = sequence[c]
+    if c == len(sequence):
+        break
     if array[i] == x:
       c+=1
-      if c == len(sequence):
-        break
   return c == len(sequence)
 
 

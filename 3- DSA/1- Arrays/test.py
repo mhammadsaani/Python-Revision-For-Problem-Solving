@@ -1,1 +1,2 @@
-print("Hello World")
+a = 'abc' * 2.5
+print(a)

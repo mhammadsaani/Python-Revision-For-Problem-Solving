@@ -53,17 +53,18 @@ target = 14
 
 
 def twoSumLR(sampleInput, target):
-  sampleInput.sort()
-  l = 0
-  r = len(sampleInput) - 1
-  while l < r:
-    currentSum = sampleInput[l] + sampleInput[r]
+  nums = sampleInput
+  left = 0
+  right = 0
+  nums.sort()
+  while left < right:
+    currentSum = nums[left] + nums[right]
     if currentSum == target:
-      return [l, r]
+      return [left, right]
     elif currentSum < target:
-      l+=1
-    elif currentSum > target:
-      r-=1
+      left+=1
+    else:
+      right-=1           
   return []
 
 print(twoSumLR(sampleInput, target))

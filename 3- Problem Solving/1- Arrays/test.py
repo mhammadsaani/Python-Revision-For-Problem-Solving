@@ -135,3 +135,19 @@ def tournmentWinner(arr, result):
   return [finalWinner, dic[finalWinner]]
     
 print(tournmentWinner(competition, results))
+
+
+arr = [1, 2, 3, 4]
+
+def minAbsoulteDiff(arr):
+  arr.sort()
+  minAbsoluteDiff = arr[1] - arr[0]
+  result = []
+        
+  for i in range(len(arr) - 1, 1, -1):
+    if arr[i] - arr[i-1] == minAbsoluteDiff:
+        result.append([arr[i-1], arr[i]])
+                
+  return result
+
+print(minAbsoulteDiff(arr))

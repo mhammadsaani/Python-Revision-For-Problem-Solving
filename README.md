@@ -3,6 +3,8 @@
  - [x] Basics
  - [ ] OOP
  - [ ] DSA
+   - [x] Arrays
+  
 
 
 ### Daily Problems

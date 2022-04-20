@@ -154,4 +154,14 @@
 
 
 
-dic = {1: [1, 2, 3], 2: [2, 3, 4]}
+# dic = {1: [1, 2, 3], 2: [2, 3, 4]}
+
+
+def factorial(n):
+    if n < 2:
+        return n
+    
+    return n * factorial(n-1)
+
+
+print(factorial(6))

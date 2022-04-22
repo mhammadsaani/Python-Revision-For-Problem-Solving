@@ -4,6 +4,8 @@
  - [ ] OOP
  - [ ] DSA
    - [x] Arrays
+   - [ ] LinkedList
+ 
   
 
 

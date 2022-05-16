@@ -5,6 +5,8 @@
  - [ ] DSA
    - [x] Arrays
    - [ ] LinkedList
+   - [ ] Stack and Queue 
+
  
   
 On REST 

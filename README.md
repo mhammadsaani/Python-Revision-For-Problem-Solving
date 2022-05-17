@@ -5,7 +5,8 @@
  - [ ] DSA
    - [x] Arrays
    - [ ] LinkedList
-   - [ ] Stack and Queue 
+   - [ ] Stack and Queue
+   - [ ] Trees 
 
  
   

@@ -7,6 +7,7 @@
    - [ ] LinkedList
    - [ ] Stack and Queue
    - [ ] Trees 
+   - [ ] Graphs
 
  
   

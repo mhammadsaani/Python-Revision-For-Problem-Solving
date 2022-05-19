@@ -8,6 +8,7 @@
    - [ ] Stack and Queue
    - [ ] Trees 
    - [ ] Graphs
+   - [ ] Sortings 
 
  
   

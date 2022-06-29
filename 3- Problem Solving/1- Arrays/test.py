@@ -1,3 +1,4 @@
+import sys
 # def ArrayChallenge(arr):
 #   arrToken = "r4vc9ywieb1"
 #   ans = []
@@ -157,11 +158,13 @@
 # dic = {1: [1, 2, 3], 2: [2, 3, 4]}
 
 
-def factorial(n):
-    if n < 2:
-        return n
+# def factorial(n):
+#     if n < 2:
+#         return n
     
-    return n * factorial(n-1)
+#     return n * factorial(n-1)
 
 
-print(factorial(6))
+# print(factorial(6))
+
+print(sys.argv[0])
